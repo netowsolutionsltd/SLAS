@@ -10,4 +10,4 @@ export const validLogin = () =>  {
     cy.get(login.passwordField).type(login.passwordText);
     cy.get(login.loginBtn).click();
     cy.wait(5000)
-};
+}; 
