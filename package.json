@@ -1,0 +1,14 @@
+{
+  "name": "slas_aut",
+  "version": "1.0.0",
+  "description": "STUDENT PORTAL AUTOMATION",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OLUWATOBI FAGBOHUNGBE",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0"
+  }
+}
