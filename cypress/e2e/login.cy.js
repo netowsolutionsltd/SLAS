@@ -18,6 +18,6 @@ describe("Login page Test Scenarios", function () {
       cy.get(login.passwordField).click();
       cy.get(login.passwordField).type(login.passwordText);
       cy.get(login.loginBtn).click();
-      cy.wait(5000)
+      cy.wait(5000) 
    })
 })

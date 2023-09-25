@@ -12,6 +12,6 @@ describe("Login page Test Scenarios", function () {
         access.validLogin();
     });
     it('DASHBOARD', function(){
-        cy.get(dashboard.dashboardBtn).click()
+     cy.get(dashboard.dashboardBtn).click()
    })
 })
