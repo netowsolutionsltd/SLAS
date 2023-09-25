@@ -20,7 +20,6 @@ describe("Login page Test Scenarios", function () {
     it('valid login', function(){
         //Apply now button
         cy.get('.flex > a > .inline-flex').click()
-
         cy.get(':nth-child(1) > .relative > .flex').click()
         cy.get(':nth-child(1) > .relative > .flex').type('SAM001101')
        // 03/23/1994
